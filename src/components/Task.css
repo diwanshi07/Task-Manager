@@ -1,0 +1,69 @@
+body{
+    margin-top:20px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtf9x1SHwhmQa1XrkhQriL-E1lCk1Tz0RFzQ&usqp=CAU");
+    }
+ul{
+    list-style: none;
+}
+li{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 40vw;
+    padding: 16px;
+    margin-top: 10px ;
+    margin-left: 300px;
+    margin-right: 50px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #e2b777;
+    text-transform: uppercase;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+li button{
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 5px;
+    
+    margin:5px;
+}
+li button:active{
+    transform: scale(0.9);
+}
+li button:hover{
+    cursor: pointer;
+}
+li #del{
+    background-color: red;
+}
+li #edit{
+    background-color: white;
+}
+
+li #up{
+    background-color: skyblue; 
+}
+li #down{
+    background-color: rgb(70, 190, 14);
+    
+}
+input{
+    margin-top: 150px;
+    height: 8vh;
+    width: 30vw;
+    background-color: #fbeec1;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 25px;
+}
+#tskbtn{
+    margin: 10px;
+    width: 5vw;
+    height: 9vh;
+    border-radius: 20px;
+     color:white;
+    background-color: rgb(255, 0, 0); 
+    border: 3px solid black;
+    
+}
